@@ -1,1 +1,1 @@
-# kitty-appimage
+# google-chrome-appimage
