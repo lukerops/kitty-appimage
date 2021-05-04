@@ -34,6 +34,7 @@ mkdir -p ./usr/lib \
 cp ./usr/share/icons/hicolor/256x256/apps/kitty.png .
 
 sed -i -e 's|Exec=kitty|Exec=AppRun|g' kitty.desktop
+echo "StartupWMClass=kitty" >> kitty.desktop
 echo "X-AppImage-Version=$KITTY_VERSION" >> kitty.desktop
 
 cd ..
